@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Scene xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.tp1.controller.JuegoController">
+   <AnchorPane prefHeight="488.0" prefWidth="775.0">
+      <StackPane prefHeight="322.0" prefWidth="799.0" />
+      <ImageView fx:id="imagenClimaActual" fitHeight="515.0" fitWidth="848.0" pickOnBounds="true" smooth="false">
+         <Image url="@../resources/imagenesPokemon/sinclima.png" />
+      </ImageView>
+      <ImageView fx:id="pokemonActual" fitHeight="156.0" fitWidth="183.0" layoutX="91.0" layoutY="225.0" pickOnBounds="true">
+         <Image url="@../resources/imagenesPokemon/pikachuatras.png" />
+      </ImageView>
+      <ImageView fx:id="pokemonRival" fitHeight="156.0" fitWidth="183.0" layoutX="514.0" layoutY="51.0" pickOnBounds="true">
+         <Image url="@../resources/imagenesPokemon/gengarfrente.png" />
+      </ImageView>
+      <StackPane layoutX="9.0" layoutY="389.0" prefHeight="116.0" prefWidth="763.0">
+         <Pane fx:id="nodoMensajes" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="102.0" prefWidth="745.0" style="-fx-background-color: orange;">
+            <Pane layoutX="6.0" layoutY="4.0" prefHeight="96.0" prefWidth="734.0" style="-fx-background-color: white;">
+               <TextFlow prefHeight="95.0" prefWidth="735.0">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cierto texto random que aparece durante la batalla..." wrappingWidth="476.6162109375">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+               </TextFlow>
+            </Pane>
+         </Pane>
+         <HBox fx:id="nodoOpciones" prefHeight="177.0" prefWidth="632.0">
+            <StackPane prefHeight="154.0" prefWidth="373.0">
+               <Pane prefHeight="148.0" prefWidth="341.0" style="-fx-background-color: black;">
+                  <Pane layoutX="8.0" layoutY="6.0" prefHeight="105.0" prefWidth="353.0" style="-fx-background-color: brown;">
+                     <TextFlow layoutX="6.0" layoutY="6.0" prefHeight="94.0" prefWidth="347.0" style="-fx-background-color: white;">
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="¿Que deberia hacer Pokemon?" textAlignment="CENTER" wrappingWidth="271.03977966308594">
+                           <font>
+                              <Font name="MathJax_Math-Regular" size="29.0" />
+                           </font>
+                        </Text>
+                     </TextFlow>
+                  </Pane>
+               </Pane>
+            </StackPane>
+            <StackPane prefHeight="177.0" prefWidth="395.0">
+               <Pane prefHeight="104.0" prefWidth="395.0" style="-fx-background-color: purple;">
+                  <GridPane layoutX="8.0" layoutY="7.0" prefHeight="103.0" prefWidth="379.0" style="-fx-background-color: white;">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="187.0" text="LUCHA" textAlignment="CENTER">
+                        <font>
+                           <Font name="FreeSans Bold" size="13.0" />
+                        </font>
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Bloom threshold="1.0" />
+                        </effect>
+                     </Button>
+                     <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="189.0" text="HUIDA" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                        <font>
+                           <Font name="FreeSans Bold" size="13.0" />
+                        </font>
+                     </Button>
+                     <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="187.0" text="POKEMON" GridPane.rowIndex="1">
+                        <font>
+                           <Font name="FreeSans Bold" size="13.0" />
+                        </font>
+                     </Button>
+                     <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="187.0" text="MOCHILA" GridPane.columnIndex="1">
+                        <font>
+                           <Font name="FreeSans Bold" size="13.0" />
+                        </font>
+                     </Button>
+                  </GridPane>
+               </Pane>
+            </StackPane>
+         </HBox>
+         <HBox fx:id="nodoHabilidades" prefHeight="100.0" prefWidth="200.0">
+            <StackPane prefHeight="116.0" prefWidth="379.0">
+               <Pane prefHeight="101.0" prefWidth="379.0" style="-fx-background-color: yellow;">
+                  <GridPane layoutX="6.0" layoutY="6.0" prefHeight="100.0" prefWidth="366.0" style="-fx-background-color: white;">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <Button fx:id="habilidadUno" mnemonicParsing="false" onAction="#manejarHabilidadUno" prefHeight="28.0" prefWidth="187.0" text="IMPACTRUENO" />
+                     <Button fx:id="habilidadDos" mnemonicParsing="false" prefHeight="28.0" prefWidth="187.0" text="INVOCAR" GridPane.rowIndex="1" />
+                     <Button fx:id="habilidadTres" alignment="CENTER" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="28.0" prefWidth="187.0" text="RAYO" GridPane.columnIndex="1" />
+                     <Button fx:id="habilidadCuatro" mnemonicParsing="false" prefHeight="28.0" prefWidth="187.0" text="CONFUNDIR" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  </GridPane>
+               </Pane>
+            </StackPane>
+            <StackPane prefHeight="116.0" prefWidth="379.0">
+               <Pane prefHeight="94.0" prefWidth="365.0" style="-fx-background-color: yellow;">
+                  <VBox layoutX="3.0" layoutY="4.0" prefHeight="104.0" prefWidth="369.0" style="-fx-background-color: white;">
+                     <HBox prefHeight="85.0" prefWidth="264.0" />
+                     <Pane prefHeight="78.0" prefWidth="384.0">
+                        <Label fx:id="elementoHabilidad" alignment="CENTER" prefHeight="51.0" prefWidth="380.0" text="TIPO ELECTRICO">
+                           <font>
+                              <Font size="27.0" />
+                           </font>
+                        </Label>
+                     </Pane>
+                  </VBox>
+               </Pane>
+            </StackPane>
+         </HBox>
+      </StackPane>
+      <VBox layoutX="24.0" layoutY="33.0" prefHeight="88.0" prefWidth="284.0" style="-fx-background-color: black;">
+         <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="21.0" prefWidth="279.0" style="-fx-background-image: ; -fx-background-color: white;">
+            <Label fx:id="nombrePokemonDos" alignment="CENTER" prefHeight="56.0" prefWidth="114.0" text="GENGAR" textFill="#b22121">
+               <font>
+                  <Font name="Liberation Serif" size="18.0" />
+               </font></Label>
+            <Label fx:id="nivelPokemonDos" alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="54.0" prefWidth="141.0" text="lvl 5" />
+         </HBox>
+         <ProgressBar maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="16.0" prefWidth="279.0" progress="1.0" />
+         <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="44.0" prefWidth="279.0" style="-fx-background-color: white;">
+            <VBox prefHeight="45.0" prefWidth="280.0">
+               <Label fx:id="pokemonsJugadorDos" alignment="CENTER" prefHeight="21.0" prefWidth="279.0" text="POKEMON'S CON VIDA: 6" />
+               <Label fx:id="estadoPokemonDos" alignment="CENTER" prefHeight="23.0" prefWidth="297.0" text="DORMIDO" />
+            </VBox>
+         </Pane>
+      </VBox>
+      <StackPane layoutX="488.0" layoutY="296.0" prefHeight="88.0" prefWidth="284.0">
+         <StackPane fx:id="nodoConfirmacion" alignment="TOP_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="65.0" prefWidth="134.0" style="-fx-background-color: yellow;">
+            <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="132.0" style="-fx-background-color: white;">
+               <Button defaultButton="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="34.0" prefWidth="131.0" text="SI">
+                  <font>
+                     <Font size="21.0" />
+                  </font>
+               </Button>
+               <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="32.0" prefWidth="132.0" text="NO">
+                  <font>
+                     <Font size="21.0" />
+                  </font>
+               </Button>
+            </VBox>
+         </StackPane>
+         <VBox fx:id="nodoEstadisticas" prefHeight="66.0" prefWidth="284.0" style="-fx-background-color: black;">
+            <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="21.0" prefWidth="279.0" style="-fx-background-color: white;">
+               <Label fx:id="nombrePokemonUno" alignment="CENTER" prefHeight="56.0" prefWidth="114.0" text="PIKACHU" />
+               <Label fx:id="nivelPokemonUno" alignment="CENTER_RIGHT" prefHeight="54.0" prefWidth="141.0" text="lvl 9" />
+            </HBox>
+            <ProgressBar maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="16.0" prefWidth="279.0" progress="1.0" />
+            <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="279.0" style="-fx-background-color: white;">
+               <Label fx:id="vidaPokemonUno" alignment="CENTER_RIGHT" layoutX="152.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="111.0" text="90/90" />
+               <Label fx:id="estadoPokemonUno" alignment="CENTER" prefHeight="27.0" prefWidth="118.0" text="CONFUSO" />
+            </Pane>
+            <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="19.0" prefWidth="279.0" style="-fx-background-color: white;">
+               <Label fx:id="pokemonsJugadorUno" alignment="CENTER" prefHeight="21.0" prefWidth="279.0" text="POKEMONS CON VIDA: 6" />
+            </Pane>
+         </VBox>
+      </StackPane>
+   </AnchorPane>
+</Scene>

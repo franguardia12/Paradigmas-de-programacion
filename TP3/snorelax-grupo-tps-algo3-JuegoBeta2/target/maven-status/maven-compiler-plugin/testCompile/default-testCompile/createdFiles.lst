@@ -1,0 +1,6 @@
+unit/model/ClimaTest.class
+unit/model/ItemsTest.class
+unit/model/JugadorTest.class
+unit/model/HabilidadesTest.class
+integration/model/JuegoTest.class
+unit/model/PokemonTest.class

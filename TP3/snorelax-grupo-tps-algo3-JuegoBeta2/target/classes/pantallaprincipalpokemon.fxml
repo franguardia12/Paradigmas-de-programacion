@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="515.0" prefWidth="848.0">
+      <children>
+         <ImageView fitHeight="515.0" fitWidth="848.0" pickOnBounds="true">
+            <image>
+               <Image url="@../resources/imagenesPokemon/imagenfondopokemons2.png" />
+            </image>
+         </ImageView>
+         <StackPane layoutX="18.0" layoutY="412.0" prefHeight="92.0" prefWidth="815.0">
+            <children>
+               <HBox prefHeight="100.0" prefWidth="200.0">
+                  <children>
+                     <Pane prefHeight="169.0" prefWidth="576.0" style="-fx-background-color: darkgrey;">
+                        <children>
+                           <Pane layoutX="5.0" layoutY="5.0" prefHeight="81.0" prefWidth="567.0" style="-fx-background-color: white;">
+                              <children>
+                                 <Label prefHeight="81.0" prefWidth="568.0" text="Elegir un Pokemon">
+                                    <font>
+                                       <Font size="28.0" />
+                                    </font>
+                                 </Label>
+                              </children>
+                           </Pane>
+                        </children>
+                     </Pane>
+                     <Pane prefHeight="92.0" prefWidth="241.0">
+                        <children>
+                           <Pane layoutX="75.0" layoutY="11.0" prefHeight="75.0" prefWidth="160.0" style="-fx-background-color: black;">
+                              <children>
+                                 <Pane layoutX="5.0" layoutY="4.0" prefHeight="68.0" prefWidth="154.0" style="-fx-background-color: purple;">
+                                    <children>
+                                       <Label alignment="CENTER" prefHeight="68.0" prefWidth="152.0" text="SALIR" textFill="WHITE">
+                                          <font>
+                                             <Font size="29.0" />
+                                          </font>
+                                       </Label>
+                                    </children>
+                                 </Pane>
+                              </children>
+                           </Pane>
+                        </children>
+                     </Pane>
+                  </children>
+               </HBox>
+            </children>
+         </StackPane>
+         <StackPane layoutX="380.0" layoutY="18.0" prefHeight="374.0" prefWidth="454.0">
+            <children>
+               <ListView opacity="0.0" prefHeight="200.0" prefWidth="200.0" />
+               <Pane prefHeight="324.0" prefWidth="454.0">
+                  <children>
+                     <Pane layoutY="153.0" prefHeight="66.0" prefWidth="455.0" style="-fx-background-color: deepskyblue;">
+                        <children>
+                           <HBox prefHeight="67.0" prefWidth="456.0">
+                              <children>
+                                 <ImageView fitHeight="67.0" fitWidth="80.0" pickOnBounds="true" smooth="false">
+                                    <image>
+                                       <Image url="@../resources/imagenesPokemon/squirtlefrente.png" />
+                                    </image>
+                                 </ImageView>
+                                 <VBox prefHeight="67.0" prefWidth="166.0">
+                                    <children>
+                                       <Label alignment="CENTER" prefHeight="36.0" prefWidth="171.0" text="SQUIRTLE">
+                                          <font>
+                                             <Font size="19.0" />
+                                          </font>
+                                       </Label>
+                                       <Label alignment="CENTER" prefHeight="30.0" prefWidth="171.0" text="Nivel 4">
+                                          <font>
+                                             <Font size="19.0" />
+                                          </font>
+                                       </Label>
+                                    </children>
+                                 </VBox>
+                                 <VBox prefHeight="67.0" prefWidth="210.0">
+                                    <children>
+                                       <Label alignment="CENTER" prefHeight="26.0" prefWidth="209.0" text="Dormido" />
+                                       <ProgressBar prefHeight="18.0" prefWidth="208.0" progress="1.0" />
+                                       <Label alignment="CENTER_RIGHT" prefHeight="23.0" prefWidth="215.0" text="60/60" />
+                                    </children>
+                                 </VBox>
+                              </children>
+                           </HBox>
+                        </children>
+                     </Pane>
+                     <Pane prefHeight="66.0" prefWidth="454.0" style="-fx-background-color: deepskyblue;">
+                        <children>
+                           <HBox prefHeight="67.0" prefWidth="454.0">
+                              <children>
+                                 <ImageView fitHeight="67.0" fitWidth="80.0" pickOnBounds="true" smooth="false">
+                                    <image>
+                                       <Image url="@../resources/imagenesPokemon/bulbasaurfrente.png" />
+                                    </image>
+                                 </ImageView>
+                                 <VBox prefHeight="67.0" prefWidth="166.0">
+                                    <children>
+                                       <Label alignment="CENTER" prefHeight="36.0" prefWidth="171.0" text="BULBASAUR">
+                                          <font>
+                                             <Font size="19.0" />
+                                          </font>
+                                       </Label>
+                                       <Label alignment="CENTER" prefHeight="30.0" prefWidth="171.0" text="Nivel 5">
+                                          <font>
+                                             <Font size="19.0" />
+                                          </font>
+                                       </Label>
+                                    </children>
+                                 </VBox>
+                                 <VBox prefHeight="67.0" prefWidth="208.0">
+                                    <children>
+                                       <Label alignment="CENTER" prefHeight="26.0" prefWidth="209.0" text="Dormido" />
+                                       <ProgressBar prefHeight="18.0" prefWidth="208.0" progress="1.0" />
+                                       <Label alignment="CENTER_RIGHT" prefHeight="23.0" prefWidth="215.0" text="66/66" />
+                                    </children>
+                                 </VBox>
+                              </children>
+                           </HBox>
+                        </children>
+                     </Pane>
+                     <Pane layoutY="310.0" prefHeight="66.0" prefWidth="455.0" style="-fx-background-color: deepskyblue;">
+                        <children>
+                           <HBox prefHeight="67.0" prefWidth="456.0">
+                              <children>
+                                 <ImageView fitHeight="67.0" fitWidth="80.0" pickOnBounds="true" smooth="false">
+                                    <image>
+                                       <Image url="@../resources/imagenesPokemon/snorlaxfrente.png" />
+                                    </image>
+                                 </ImageView>
+                                 <VBox prefHeight="67.0" prefWidth="166.0">
+                                    <children>
+                                       <Label alignment="CENTER" prefHeight="36.0" prefWidth="171.0" text="SNORLAX">
+                                          <font>
+                                             <Font size="19.0" />
+                                          </font>
+                                       </Label>
+                                       <Label alignment="CENTER" prefHeight="30.0" prefWidth="171.0" text="Nivel 6">
+                                          <font>
+                                             <Font size="19.0" />
+                                          </font>
+                                       </Label>
+                                    </children>
+                                 </VBox>
+                                 <VBox prefHeight="67.0" prefWidth="210.0">
+                                    <children>
+                                       <Label alignment="CENTER" prefHeight="26.0" prefWidth="209.0" text="Dormido" />
+                                       <ProgressBar prefHeight="18.0" prefWidth="208.0" progress="1.0" />
+                                       <Label alignment="CENTER_RIGHT" prefHeight="23.0" prefWidth="215.0" text="58/58" />
+                                    </children>
+                                 </VBox>
+                              </children>
+                           </HBox>
+                        </children>
+                     </Pane>
+                     <Pane layoutY="232.0" prefHeight="66.0" prefWidth="455.0" style="-fx-background-color: deepskyblue;">
+                        <children>
+                           <HBox prefHeight="67.0" prefWidth="456.0">
+                              <children>
+                                 <ImageView fitHeight="67.0" fitWidth="80.0" pickOnBounds="true" smooth="false">
+                                    <image>
+                                       <Image url="@../resources/imagenesPokemon/jigglypufffrente.png" />
+                                    </image>
+                                 </ImageView>
+                                 <VBox prefHeight="67.0" prefWidth="166.0">
+                                    <children>
+                                       <Label alignment="CENTER" prefHeight="36.0" prefWidth="171.0" text="JIGGLYPUFF">
+                                          <font>
+                                             <Font size="19.0" />
+                                          </font>
+                                       </Label>
+                                       <Label alignment="CENTER" prefHeight="30.0" prefWidth="171.0" text="Nivel 4">
+                                          <font>
+                                             <Font size="19.0" />
+                                          </font>
+                                       </Label>
+                                    </children>
+                                 </VBox>
+                                 <VBox prefHeight="67.0" prefWidth="210.0">
+                                    <children>
+                                       <Label alignment="CENTER" prefHeight="26.0" prefWidth="209.0" text="Dormido" />
+                                       <ProgressBar prefHeight="18.0" prefWidth="208.0" progress="1.0" />
+                                       <Label alignment="CENTER_RIGHT" prefHeight="23.0" prefWidth="215.0" text="40/40" />
+                                    </children>
+                                 </VBox>
+                              </children>
+                           </HBox>
+                        </children>
+                     </Pane>
+                     <Pane layoutY="76.0" prefHeight="66.0" prefWidth="455.0" style="-fx-background-color: deepskyblue;">
+                        <children>
+                           <HBox prefHeight="67.0" prefWidth="456.0">
+                              <children>
+                                 <ImageView fitHeight="67.0" fitWidth="80.0" pickOnBounds="true" smooth="false">
+                                    <image>
+                                       <Image url="@../resources/imagenesPokemon/charmanderfrente.png" />
+                                    </image>
+                                 </ImageView>
+                                 <VBox prefHeight="67.0" prefWidth="166.0">
+                                    <children>
+                                       <Label alignment="CENTER" prefHeight="36.0" prefWidth="171.0" text="CHARMANDER">
+                                          <font>
+                                             <Font size="19.0" />
+                                          </font>
+                                       </Label>
+                                       <Label alignment="CENTER" prefHeight="30.0" prefWidth="171.0" text="Nivel 7">
+                                          <font>
+                                             <Font size="19.0" />
+                                          </font>
+                                       </Label>
+                                    </children>
+                                 </VBox>
+                                 <VBox prefHeight="67.0" prefWidth="210.0">
+                                    <children>
+                                       <Label alignment="CENTER" prefHeight="26.0" prefWidth="209.0" text="Dormido" />
+                                       <ProgressBar prefHeight="18.0" prefWidth="208.0" progress="1.0" />
+                                       <Label alignment="CENTER_RIGHT" prefHeight="23.0" prefWidth="215.0" text="66/66" />
+                                    </children>
+                                 </VBox>
+                              </children>
+                           </HBox>
+                        </children>
+                     </Pane>
+                  </children>
+               </Pane>
+            </children>
+         </StackPane>
+         <StackPane layoutX="33.0" layoutY="26.0" prefHeight="149.0" prefWidth="310.0">
+            <children>
+               <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: deepskyblue;">
+                  <children>
+                     <VBox prefHeight="166.0" prefWidth="310.0">
+                        <children>
+                           <HBox prefHeight="100.0" prefWidth="200.0">
+                              <children>
+                                 <ImageView fitHeight="67.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                       <Image url="@../resources/imagenesPokemon/pikachufrente.png" />
+                                    </image>
+                                 </ImageView>
+                                 <VBox prefHeight="100.0" prefWidth="243.0">
+                                    <children>
+                                       <Label alignment="CENTER" prefHeight="39.0" prefWidth="485.0" text="PIKACHU">
+                                          <font>
+                                             <Font size="19.0" />
+                                          </font>
+                                       </Label>
+                                       <Label alignment="CENTER" prefHeight="25.0" prefWidth="245.0" text="Nivel 9">
+                                          <font>
+                                             <Font size="19.0" />
+                                          </font>
+                                       </Label>
+                                       <Label alignment="CENTER" prefHeight="35.0" prefWidth="245.0" text="Dormido" />
+                                    </children>
+                                 </VBox>
+                              </children>
+                           </HBox>
+                           <ProgressBar prefHeight="18.0" prefWidth="312.0" progress="1.0" />
+                           <Label alignment="CENTER_RIGHT" prefHeight="27.0" prefWidth="324.0" text="90/90" />
+                        </children>
+                     </VBox>
+                  </children>
+               </Pane>
+            </children>
+         </StackPane>
+      </children></AnchorPane>
+</Scene>
