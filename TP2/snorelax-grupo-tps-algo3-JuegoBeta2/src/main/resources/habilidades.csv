@@ -1,0 +1,136 @@
+Impactrueno,ATAQUE,ELECTRICO,20
+Invocar Sol,CLIMA,SOLEADO,0
+Invocar Lluvia,CLIMA,LLUVIA,0
+Invocar Tormenta De Arena,CLIMA,TORMENTA_DE_ARENA,0
+Invocar Niebla,CLIMA,NIEBLA,0
+Invocar Tormenta De Rayos,CLIMA,TORMENTA_DE_RAYOS,0
+Invocar Huracan,CLIMA,HURACAN,0
+Invocar Nieve,CLIMA,NIEVE,0
+Invocar Erupcion de Volcan,CLIMA,ERUPCION_VOLCAN,0
+Rayo,ATAQUE,ELECTRICO,15
+Desactivar,ATAQUE,RIVAL,0.85
+Electrocanon,ATAQUE,ELECTRICO,20
+Latigo cepa,ATAQUE,PLANTA,25
+Drenadoras,ESTADO,ENVENENADO,0
+Confundir,ESTADO,CONFUSO,0
+Hoja afilada,ATAQUE,PLANTA,15
+Ascuas,ATAQUE,FUEGO,10
+Rompe dragon,ATAQUE,DRAGON,15
+Golpe roca,ATAQUE,ROCA,10
+Lanzallamas,ATAQUE,FUEGO,15
+Descanso,ESTADO,DORMIDO,0
+Surf,ATAQUE,AGUA,15
+Aceite Toxico,ESTADO,ENVENENADO,0
+Descanso,ESTADO,DORMIDO,0
+Ataduras,ESTADO,PARALIZADO,0
+Confundir,ESTADO,CONFUSO,0
+Invocar Lluvia,CLIMA,LLUVIA,0
+Cromador,ESTADO,PARALIZADO,0
+Descanso,ESTADO,DORMIDO,0
+Invocar Sol,CLIMA,SOLEADO,0
+Invocar Lluvia,CLIMA,LLUVIA,0
+Invocar Tormenta De Arena,CLIMA,TORMENTA_DE_ARENA,0
+Invocar Niebla,CLIMA,NIEBLA,0
+Invocar Tormenta De Rayos,CLIMA,TORMENTA_DE_RAYOS,0
+Invocar Huracan,CLIMA,HURACAN,0
+Invocar Nieve,CLIMA,NIEVE,0
+Invocar Erupcion de Volcan,CLIMA,ERUPCION_VOLCAN,0
+Coma,ESTADO,PARALIZADO,0
+Ronquido,ESTADO,DORMIDO,0
+Llamarada,ATAQUE,FUEGO,15
+HidroCoraje,DEFENSA,PROPIO,1.5
+Cola dragon,ATAQUE,DRAGON,15
+Aceite Toxico,ESTADO,ENVENENADO,0
+Pulso dragon,ATAQUE,DRAGON,15
+Surf,ATAQUE,AGUA,15
+Confusion de Ataque,ATAQUE,PSIQUICO,15
+FuegoCoraje,DEFENSA,PROPIO,1.5
+Confundir,ESTADO,CONFUSO,0
+Esfera aural,ESTADISTICAS,VIDA,1.5
+Invocar Lluvia,CLIMA,LLUVIA,0
+Psicorrayo,ATAQUE,PSIQUICO,20
+Hidra Venenosa,ATAQUE,VENENO,20
+Segregar Defensa,DEFENSA,RIVAL,0.85
+Puño sombra,ATAQUE,FANTASMA,20
+Bola sombra,ATAQUE,FANTASMA,15
+Evolucionar,EVOLUCION,PROPIO,1.5
+Segregar Evolucion Rival,EVOLUCION,RIVAL,0.75
+Lanzar Insectos,ATAQUE,BICHO,20
+Megalodon,ATAQUE,PROPIO,1.5
+Evolucionar,EVOLUCION,PROPIO,1.5
+Segregar Evolucion Rival,EVOLUCION,RIVAL,0.75
+Karate chop,ATAQUE,LUCHA,10
+Golpe cruzado,ATAQUE,LUCHA,15
+Llave corse,ESTADO,PARALIZADO,0
+Esfera aural,ESTADISTICAS,VIDA,1.5
+Confundir,ESTADO,CONFUSO,0
+Descanso,ESTADO,DORMIDO,0
+Invocar Lluvia,CLIMA,LLUVIA,0
+Lanzar Insectos,ATAQUE,BICHO,20
+Evolucionar,EVOLUCION,PROPIO,1.5
+Segregar Evolucion Rival,EVOLUCION,RIVAL,0.75
+Evolucionar,EVOLUCION,PROPIO,1.5
+Segregar Evolucion Rival,EVOLUCION,RIVAL,0.75
+Mordisco,ATAQUE,PROPIO,1.5
+Hidra Venenosa,ATAQUE,VENENO,20
+Desarmar oponente,DEFENSA,RIVAL,0.85
+Ataque rapido,ATAQUE,TIERRA,20
+Entumeser,DEFENSA,RIVAL,0.85
+Segregar Defensa,DEFENSA,RIVAL,0.90
+Congelar y Atacar Enemigo,ATAQUE,HIELO,20
+Surf,ATAQUE,AGUA,15
+Ataduras,ESTADO,PARALIZADO,0
+Pistola agua,ATAQUE,AGUA,10
+Lanzar Meteorito,ATAQUE,ROCA,15
+Evolucionar,EVOLUCION,PROPIO,1.5
+Segregar Evolucion Rival,EVOLUCION,RIVAL,0.75
+Hidra Venenosa,ATAQUE,VENENO,20
+Lanzar Insectos,ATAQUE,BICHO,20
+Invocar Lluvia,CLIMA,LLUVIA,0
+Congelar y Atacar Enemigo,ATAQUE,HIELO,20
+Pistola agua,ATAQUE,AGUA,10
+Acua jet,ATAQUE,AGUA,50
+Salpicaduras venenosas,ESTADO,ENVENENADO,0
+Confundir,ESTADO,CONFUSO,0
+Confusion de ataque,ATAQUE,PSIQUICO,15
+Congelar y Atacar Enemigo,ATAQUE,HIELO,20
+Invocar Sol,CLIMA,SOLEADO,0
+Invocar Lluvia,CLIMA,LLUVIA,0
+Invocar Tormenta De Arena,CLIMA,TORMENTA_DE_ARENA,0
+Invocar Niebla,CLIMA,NIEBLA,0
+Invocar Tormenta De Rayos,CLIMA,TORMENTA_DE_RAYOS,0
+Invocar Huracan,CLIMA,HURACAN,0
+Invocar Nieve,CLIMA,NIEVE,0
+Invocar Erupcion de Volcan,CLIMA,ERUPCION_VOLCAN,0
+Esfera aural,DEFENSA,PROPIO,1.5
+Invocar Lluvia,CLIMA,LLUVIA,0
+Puño psiquico,ATAQUE,PSIQUICO,15
+Evolucionar,EVOLUCION,PROPIO,1.5
+Segregar Evolucion Rival,EVOLUCION,RIVAL,0.75
+Lanzar Meteorito,ATAQUE,ROCA,15
+Lanzar Insectos,ATAQUE,BICHO,20
+Psicoonda,ATAQUE,PSIQUICO,10
+Segregar Defensa,DEFENSA,RIVAL,0.90
+Congelar y Atacar Enemigo,ATAQUE,HIELO,20
+Rayo solar de Plantas,ATAQUE,PLANTA,20
+Lanzar Meteorito,ATAQUE,ROCA,15
+Hidra Venenosa,ATAQUE,VENENO,20
+Hoja afilada,ATAQUE,PLANTA,15
+Confundir,ESTADO,CONFUSO,0
+Marear,ESTADO,DORMIDO,0
+Lanzar Meteorito,ATAQUE,ROCA,15
+Lanzar Insectos,ATAQUE,BICHO,20
+Evolucionar,EVOLUCION,PROPIO,1.5
+Segregar Evolucion Rival,EVOLUCION,RIVAL,0.75
+Dragotrueno,ATAQUE,DRAGON,50
+Ataduras,ESTADO,PARALIZADO,0
+Golpe dragon,ATAQUE,DRAGON,15
+Evolucionar,EVOLUCION,PROPIO,1.5
+Segregar Evolucion Rival,EVOLUCION,RIVAL,0.75
+Congelar y Atacar Enemigo,ATAQUE,HIELO,20
+Lanzar Meteorito,ATAQUE,ROCA,15
+Drenadoras,ESTADO,ENVENENADO,0
+Confundir,ESTADO,CONFUSO,0
+Esfera aural,ESTADISTICAS,VIDA,1.25
+Ataduras,ESTADO,PARALIZADO,0
+Drenadoras,ESTADO,ENVENENADO,0
